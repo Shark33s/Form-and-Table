@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <title>Form</title>
+    <h1>This is Form test</h1>
+    <h4>Ini adalah website latihan pertama</h4>
+    <form>
+        <label for="name">Nama :</label>
+        <input id="name" type="text" />
+        <br>
+
+        <label for="tanggal lahir">Tanggal Lahir :</label>
+        <input id="tanggal lahir" type="text" />
+        <br>
+
+        <label for="Kelamin">Jenis Kelamin :</label>
+
+        <input type="radio" id="Laki-laki" name="Kelamin" value="Laki-laki">
+        <label for="Laki-laki">Laki-laki</label>
+
+        <input type="radio" id="Perempuan" name="Kelamin" value="Perempuan">
+        <label for="Perempuan">Perempuan</label>
+        <br>
+
+        <label for="pesan">Pesan :</label>
+        <input id="pesan" type="text" style="width: 20%; height: 200px;"/>
+        <br>
+
+       <button type="button"onclick="doSomething();">
+        Submit
+        </button>
+
+
+    </form>
+<a href="Test 2.html">Back</a>
+</html>
