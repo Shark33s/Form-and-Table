@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <Title>Table</Title>
+    <head>
+        <style>
+            table, th, td {
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            th, td {
+                Background-color: #EC8F5E;
+            }
+            th, td {
+                border-color: #4F6F52;
+            }
+            td {
+                text-align: center;
+            }
+        </style>
+        </head>
+        <body>
+            <h1>This is Table Layout Training</h1>
+            <table>
+                <tr style="height:50px">
+                    <th style="width: 135px;">Nama</th>
+                    <th style="width: 160px;">Tanggal Lahir</th>
+                    <th style="width: 100px;">Jenis<br/>Kelamin</th>
+                    <th style="width: 200px;">Pesan</th>
+                    <th style="width: 100px;">Profile</th>
+                    <th style="width: 60px;">Delete</th>
+                </tr>
+                <tr style="height:40px">
+                    <td>Ada Lovelace</td>
+                    <td>December 10, 1815</td>
+                    <td>Perempuan</td>
+                    <td>Belajar Buat Website</td>
+                    <td><a href="Test 2.html">Klik di sini</a></td>
+                    <td><img src="Media/2025324-200.png" alt:"Bin Icon" width=15px height=18px /></td>
+                </tr>
+                <tr style="height:40px">
+                    <td>Grace Hopper</td>
+                    <td>December 9, 1906</td>
+                    <td>Perempuan</td>
+                    <td>Hello World</td>
+                    <td><a href="Test 2.html">Klik di sini</a></td>
+                    <td><img src="Media/2025324-200.png" alt:"Bin Icon" width=15px height=18px /></td>
+                </tr>
+                <tr style="height:40px">
+                    <td>Margaret<br/>Hamilton</td>
+                    <td>August 17, 1936</td>
+                    <td>Perempuan</td>
+                    <td>Test Dulu</td>
+                    <td><a href="Test 2.html">Klik di sini</a></td>
+                    <td><img src="Media/2025324-200.png" alt:"Bin Icon" width=15px height=18px /></td>
+                </tr>
+                <tr style="height:40px">
+                    <td>Joan Clarke</td>
+                    <td>June 24, 1917</td>
+                    <td>Laki-laki</td>
+                    <td>Selalu Semangat</td>
+                    <td><a href="Test 2.html">Klik di sini</a></td>
+                    <td><img src="Media/2025324-200.png" alt:"Bin Icon" width=15px height=18px /></td>
+                </tr>
+            </body>
+
+</html>
